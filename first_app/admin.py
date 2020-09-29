@@ -7,4 +7,3 @@ admin.site.register(Topico)
 admin.site.register(Webpage)
 admin.site.register(RegistroAcesso)
 admin.site.register(Pessoa)
-#commit
