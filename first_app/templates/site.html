@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/site.css' %}"/>
+{% endblock %}
+
+{% block content %}
+    <div id="todo_conteudo">
+        <div id="caixona">
+            <div id="titulo">
+                <h1> O que eu mais gosto em São Paulo </h1>
+            </div>
+
+            <div class="lugares">
+                <div class="header">
+                    <h2> Passear na Avenida Paulista </h2>
+                </div>
+                <p>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/18/99/d8/ed/paulista.jpg"
+                         alt="Rua Paulista"> <br>
+                    Um dos principais centros financeiros da cidade, a avenida Paulista também possui diversas
+                    opções de
+                    entretenimento. <br>
+                    Endereço do Museu de Arte de São Paulo,<i> MASP</i>, do Teatro Gazeta e muitos outros, a região
+                    é de
+                    fácil
+                    acesso graças as <br>
+                    diversas linhas de ônibus que cruzam a avenida e a linha de metrô que passa por baixo dela. <br>
+                    <br>
+                    A avenida paulista sempre é assunto. O que será que estão falando a respeito no <a class="Link"
+                                                                                                       href="https://twitter.com/search?q=Avenida Paulista">
+                    <b> Twitter</b></a>
+                </p>
+            </div>
+
+            <div class="lugares">
+                <div class="header">
+                    <h2> Os bares da Vila Madalena</h2>
+                </div>
+                <p>
+                    <img src="https://www.guiadasemana.com.br/contentFiles/image/opt_w840h0/2019juliana/lugares/vila-madalena/28060886-1719018988119237-4294555165498106193-o.jpg"
+                         alt="Bares Madalena"> <br>
+                    Depois de um dia de trabalho, nada melhor do que um bom chopp, um petisco e uma conversa em uma mesa
+                    de
+                    bar <br>
+                    Opções de sobra na região das ruas Aspicuelta, Fradique Coutinho e Wisard.<br>
+                    <br>
+                    Veja quais os melhores bares e restaurantes da região no <a class="Link"
+                                                                                href="https://vejasp.abril.com.br/cidades/melhor-da-vila-madalena-restaurantes/"><b>Guia
+                    da VEJA
+                    São Paulo. </b> </a>
+                </p>
+            </div>
+
+            <div class="lugares">
+                <div class="header">
+                    <h2> O Parque do Ibirapuera</h2>
+                </div>
+                <p>
+                    <img src="https://exame.com/wp-content/uploads/2019/03/parque-do-ibirapuera.gif"
+                         alt="Parque Ibirapuera"> <br>
+                    Um dos cartões postais da cidade, o parque dispõe de mais de 1,5 km{^2} de área verde, lagos
+                    artificiais
+                    e pistas de <br>
+                    cooper e ciclismo. E se isso não fosse o suficiente, o parque costuma ser palco de diversos eventos
+                    culturais ao longo <br>
+                    do ano.<br>
+                    <br>
+                    Veja no <a class="Link" href="http://goo.gl/maps/HoH8"> <b>mapa</b></a> como chegar ao parque.
+                </p>
+            </div>
+
+            <div id="menu">
+                <h4> E existem muitos outros lugares interessantes na cidade...</h4>
+                <p id="p01">
+                    1. O Mercado Municipal. <br>
+                    2. A Sala São Paulo. <br>
+                    3. Os estádios dos principais times de futebol da cidade. <br>
+                    4. Diversos museus, como o Memorial da América Latina, Museu da Língua Portuguesa e o Museu do
+                    Ipiranga.
+                    <br>
+                    5. E mais! <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

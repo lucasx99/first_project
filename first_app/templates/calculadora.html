@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static '/css/calculadora.css' %}"/>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <table border="3">
+            <div>
+                <tr>
+                    <td colspan="12">
+                        <input type="text" id="result" value="">
+                    </td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+
+                    <td colspan="4"><input type="button" onClick="clr()" value="C"></td>
+                    <td colspan="4"><input type="button" onClick="dis('.')" value="."></td>
+                    <td colspan="4"><input type="button" onClick="dis('/')" value="/"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="button" onClick="dis('+')" value="+"></td>
+                    <td colspan="4"><input type="button" onClick="dis('-')" value="-"></td>
+                    <td colspan="4"><input type="button" onClick="dis('*')" value="*"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="button" onClick="dis('7')" value="7"></td>
+                    <td colspan="4"><input type="button" onClick="dis('8')" value="8"></td>
+                    <td colspan="4"><input type="button" onClick="dis('9')" value="9"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="button" onClick="dis('4')" value="4"></td>
+                    <td colspan="4"><input type="button" onClick="dis('5')" value="5"></td>
+                    <td colspan="4"><input type="button" onClick="dis('6')" value="6"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="button" onClick="dis('1')" value="1"></td>
+                    <td colspan="4"><input type="button" onClick="dis('2')" value="2"></td>
+                    <td colspan="4"><input type="button" onClick="dis('3')" value="3"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="button" onClick="convert()" value="+/-"></td>
+                    <td colspan="4"><input type="button" onClick="dis('0')" value="0"></td>
+                    <td colspan="4"><input type="button" onClick="solve()" value="="></td>
+                </tr>
+            </div>
+        </table>
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static '/js/calculadora.js' %}" rel="stylesheet"></script>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load crispy_forms_filters %}
+
+{% block css %}
+
+{% endblock %}
+
+{% block content %}
+  <h1>Preencha o Formulário</h1>
+    <div class="container">
+        <form method="POST">
+            {{ form|crispy}}
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

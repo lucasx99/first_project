@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+{% extends 'base.html' %}
+
+{% block css %}
+
+{% endblock %}
+
+{% block content %}
+    <a href="{% url 'first_app:index' %}">Index</a><br>
+    <a href="{% url 'first_app:calculadora' %}">Calculadora</a><br>
+    <a href="{% url 'first_app:form' %}">Form</a><br>
+    <a href="{% url 'first_app:help' %}">Help</a><br>
+    <a href="{% url 'first_app:topicoform' %}">Model Form</a><br>
+    <a href="{% url 'first_app:site' %}">Site</a><br>
+    <a href="{% url 'first_app:links' %}">Links</a>
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

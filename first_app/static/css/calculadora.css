@@ -1,0 +1,51 @@
+/*noinspection ALL*/
+
+table, td, tr {
+    padding: 2px;
+    margin: auto;
+}
+
+input[type=button] {
+    font-size: 40px;
+    width: 100%;
+    color: black;
+    border: 5px;
+    background-color: #77777788;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px #888888;
+    cursor: pointer;
+    height: 100%;
+}
+
+input[type=button]:active {
+    background: beige;
+}
+
+input[type=button]:hover {
+    opacity: 0.5;
+}
+
+input[type=text] {
+    text-align: right;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 7px;
+    padding-right: 3px;
+    width: 98%;
+    height: 100%;
+    font-size: 40px;
+}
+
+td {
+    text-align: center;
+    border: 10px;
+    border-radius: 7px;
+    width: 160px;
+    height: 100px;
+}
+
+table {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    border-radius: 7px;
+}

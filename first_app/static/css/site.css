@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#p01 {
+    font-size: 0.8em;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+img {
+    width: 25%;
+    margin: 0px;
+}
+
+.lugares {
+    width: 960px;
+    padding: 10px;
+    margin: 10px;
+    border-style: ridge;
+}
+
+#caixona {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+#todo_conteudo {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+#menu {
+    width: 960px;
+    padding: 10px;
+    margin: 10px;
+    border-style: ridge;
+
+}
+
+.header {
+    border-style: hidden hidden dashed hidden;
+    border-width: 1px;
+    line-height: 0px;
+    border-color: yellowgreen;
+}
+
+#titulo {
+    color: black;
+}
+
+a Link {
+    color: white;
+}
+
